@@ -13,6 +13,17 @@
 		C410A72321CE235F00C9194E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C410A72221CE235F00C9194E /* Assets.xcassets */; };
 		C410A72621CE235F00C9194E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C410A72421CE235F00C9194E /* LaunchScreen.storyboard */; };
 		C410A72921CE235F00C9194E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C410A72821CE235F00C9194E /* main.m */; };
+		C410A73121CE267B00C9194E /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A73021CE267B00C9194E /* iflyMSC.framework */; };
+		C410A73421CE26CE00C9194E /* BFSPlatformAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = C410A73321CE26CE00C9194E /* BFSPlatformAssistant.m */; };
+		C410A73821CE27FD00C9194E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A73721CE27FD00C9194E /* libz.tbd */; };
+		C410A73C21CE281300C9194E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A73B21CE281300C9194E /* SystemConfiguration.framework */; };
+		C410A73E21CE282500C9194E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A73D21CE282500C9194E /* AudioToolbox.framework */; };
+		C410A74021CE284400C9194E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A73F21CE284400C9194E /* libc++.tbd */; };
+		C410A74321CE2A5800C9194E /* BFSXunFeiSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C410A74221CE2A5800C9194E /* BFSXunFeiSpeaker.m */; };
+		C410A74521CE316D00C9194E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A74421CE316D00C9194E /* CoreTelephony.framework */; };
+		C410A74721CE333900C9194E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A74621CE333900C9194E /* CoreLocation.framework */; };
+		C410A74921CE334500C9194E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A74821CE334500C9194E /* QuartzCore.framework */; };
+		C410A74B21CE335200C9194E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410A74A21CE335200C9194E /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,20 @@
 		C410A72521CE235F00C9194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C410A72721CE235F00C9194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C410A72821CE235F00C9194E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C410A73021CE267B00C9194E /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		C410A73221CE26CE00C9194E /* BFSPlatformAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFSPlatformAssistant.h; sourceTree = "<group>"; };
+		C410A73321CE26CE00C9194E /* BFSPlatformAssistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFSPlatformAssistant.m; sourceTree = "<group>"; };
+		C410A73721CE27FD00C9194E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C410A73921CE280700C9194E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C410A73B21CE281300C9194E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C410A73D21CE282500C9194E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C410A73F21CE284400C9194E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C410A74121CE2A5800C9194E /* BFSXunFeiSpeaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFSXunFeiSpeaker.h; sourceTree = "<group>"; };
+		C410A74221CE2A5800C9194E /* BFSXunFeiSpeaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFSXunFeiSpeaker.m; sourceTree = "<group>"; };
+		C410A74421CE316D00C9194E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C410A74621CE333900C9194E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C410A74821CE334500C9194E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C410A74A21CE335200C9194E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +58,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C410A74B21CE335200C9194E /* CoreGraphics.framework in Frameworks */,
+				C410A74921CE334500C9194E /* QuartzCore.framework in Frameworks */,
+				C410A74721CE333900C9194E /* CoreLocation.framework in Frameworks */,
+				C410A74521CE316D00C9194E /* CoreTelephony.framework in Frameworks */,
+				C410A74021CE284400C9194E /* libc++.tbd in Frameworks */,
+				C410A73E21CE282500C9194E /* AudioToolbox.framework in Frameworks */,
+				C410A73C21CE281300C9194E /* SystemConfiguration.framework in Frameworks */,
+				C410A73821CE27FD00C9194E /* libz.tbd in Frameworks */,
+				C410A73121CE267B00C9194E /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,7 @@
 			children = (
 				C410A71821CE234100C9194E /* BFSXunFeiPlayer */,
 				C410A71721CE234100C9194E /* Products */,
+				C410A73621CE27FD00C9194E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +93,8 @@
 		C410A71821CE234100C9194E /* BFSXunFeiPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C410A73521CE26D600C9194E /* Func */,
+				C410A72F21CE254E00C9194E /* OtherFramework */,
 				C410A71921CE234100C9194E /* AppDelegate.h */,
 				C410A71A21CE234100C9194E /* AppDelegate.m */,
 				C410A71C21CE234100C9194E /* ViewController.h */,
@@ -69,6 +106,41 @@
 				C410A72821CE235F00C9194E /* main.m */,
 			);
 			path = BFSXunFeiPlayer;
+			sourceTree = "<group>";
+		};
+		C410A72F21CE254E00C9194E /* OtherFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C410A73021CE267B00C9194E /* iflyMSC.framework */,
+			);
+			path = OtherFramework;
+			sourceTree = "<group>";
+		};
+		C410A73521CE26D600C9194E /* Func */ = {
+			isa = PBXGroup;
+			children = (
+				C410A73221CE26CE00C9194E /* BFSPlatformAssistant.h */,
+				C410A73321CE26CE00C9194E /* BFSPlatformAssistant.m */,
+				C410A74121CE2A5800C9194E /* BFSXunFeiSpeaker.h */,
+				C410A74221CE2A5800C9194E /* BFSXunFeiSpeaker.m */,
+			);
+			path = Func;
+			sourceTree = "<group>";
+		};
+		C410A73621CE27FD00C9194E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C410A74A21CE335200C9194E /* CoreGraphics.framework */,
+				C410A74821CE334500C9194E /* QuartzCore.framework */,
+				C410A74621CE333900C9194E /* CoreLocation.framework */,
+				C410A74421CE316D00C9194E /* CoreTelephony.framework */,
+				C410A73F21CE284400C9194E /* libc++.tbd */,
+				C410A73D21CE282500C9194E /* AudioToolbox.framework */,
+				C410A73B21CE281300C9194E /* SystemConfiguration.framework */,
+				C410A73921CE280700C9194E /* AVFoundation.framework */,
+				C410A73721CE27FD00C9194E /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +216,8 @@
 				C410A71E21CE234100C9194E /* ViewController.m in Sources */,
 				C410A72921CE235F00C9194E /* main.m in Sources */,
 				C410A71B21CE234100C9194E /* AppDelegate.m in Sources */,
+				C410A73421CE26CE00C9194E /* BFSPlatformAssistant.m in Sources */,
+				C410A74321CE2A5800C9194E /* BFSXunFeiSpeaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +361,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C3S2B3BGX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BFSXunFeiPlayer/OtherFramework",
+				);
 				INFOPLIST_FILE = BFSXunFeiPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +384,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C3S2B3BGX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BFSXunFeiPlayer/OtherFramework",
+				);
 				INFOPLIST_FILE = BFSXunFeiPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

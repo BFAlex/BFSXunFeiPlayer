@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BFSXunFeiSpeaker.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self testSpeaker];
+    
+    
+    [NSTimer scheduledTimerWithTimeInterval:5.f repeats:NO block:^(NSTimer * _Nonnull timer) {
+        [[BFSXunFeiSpeaker shareInstance] destoryInstance];
+        [self testSpeaker];
+    }];
+}
+
+- (void)testSpeaker {
+    
+    [BFSXunFeiSpeaker registeredXunFeiSpeaker];
+    [[BFSXunFeiSpeaker shareInstance] startSpeak:@"你好吗,贝贝"];
 }
 
 
